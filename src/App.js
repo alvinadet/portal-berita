@@ -13,7 +13,7 @@ class App extends Component {
         <CompNavigasi />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/detailberita" component={DetailBerita} />
+          <Route path="/:slug" component={DetailBerita} />
         </Switch>
       </div>
     );
